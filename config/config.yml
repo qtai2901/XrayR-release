@@ -16,8 +16,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, , Proxypanel
     ApiConfig:
-      ApiHost: "https://mortarvpn.xyz/"
-      ApiKey: "Mortarvpnxyz123456abcxyzabcxyz123"
+      ApiHost: "https://4ghatde.com/"
+      ApiKey: "phamvanquoctai0209"
       NodeID: 
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
