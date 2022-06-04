@@ -77,9 +77,12 @@ install_base() {
     if [[ x"${release}" == x"centos" ]]; then
         yum install epel-release -y
         yum install wget curl unzip tar crontabs socat -y
+	firewall-cmd --zone=public --add-port=80/tcp --permanent
+	firewall-cmd --reload
     else
         apt update -y
         apt install wget curl unzip tar cron socat -y
+	ufw allow 80
     fi
 }
 
